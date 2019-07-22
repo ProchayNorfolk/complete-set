@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>complete set</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content=""><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|PT+Sans:400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 d-flex header-top-wrap">
+              <div class="header-logo"><img src="img/header/header-car.png" alt="logo"></div>
+              <div class="header-top-tel"><a href="tel:+(067) 999 99 99"><img src="img/header/phone.png" alt="phone"><span>(067) 999 99 99</span></a></div>
+              <div class="header-top-schedule"><img src="img/header/av-timer.png" alt="av-timer"><span>9:00 - 22:00 без выходных</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="headet-main">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 header-main-wrap d-flex">
+              <div class="header-slogan"><span class="bold">Фрунзе Авто-Харьков</span></div>
+              <div class="header-profile d-flex"><a class="profile" href="#"><span>Редактировать профиль</span></a><img src="img/header/user-pic.png" alt="user-pic"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 header-bottom-wrap">
+              <nav> 
+                <ul class="breadcrumbs">
+                  <li class="breadcrumbs-item"><a class="breadcrumbs-link" href="#">Главная</a><i class="fas fa-arrow-right"></i></li>
+                  <li class="breadcrumbs-item"> <a class="breadcrumbs-link" href="#">Для автосалонов</a><i class="fas fa-arrow-right"></i></li>
+                  <li class="breadcrumbs-item active"> <a class="breadcrumbs-link" href="#">Разместить информацию по авто в наличии</a><i class="fas fa-arrow-right"></i></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="offer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="bold offer-title">Отметьте машины, которые есть у Вас в наличии или будут доступны к продаже в ближайшее время</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="offer-filters">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="offer-filters-controls d-flex">
+              <select class="custom-select model offer-filters-controls-item">
+                <option selected="">Марка</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <select class="custom-select mark offer-filters-controls-item">
+                <option selected="">Модель</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <div class="btn-site filters-controls offer-filters-controls-item">сообщить об отсуствующей модели (комплектации)</div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header d-flex" id="headingOne">
+                  <div class="name-auto">
+                    <p class="bold auto-title">Lexus Lc 500</p>
+                    <p class="little-date">2017г. - 2018г.</p>
+                  </div>
+                  <div class="equipment-auto"><span>комплектация</span></div>
+                  <div class="color-auto"> <span>цвет</span></div>
+                  <div class="accordion-btn">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <i class="fas fa-chevron-down"></i>
+                      <i class="fas fa-chevron-up"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="collapse show" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body d-flex">
+                    <div class="name-auto"><img src="img/offer/car.png" alt="car">
+                      <div class="btn-site"><span>Специальные предложения от ВАШЕГО салона</span><i class="far fa-question-circle"></i></div><a href="#"> 
+                        <p class="name-auto-report">сообщить об ошибке в комплектации</p></a>
+                    </div>
+                    <div class="equipment-auto">
+                      <form>
+                        <div class="form-check-wrap">
+                          <div class="form-check">
+                            <input id="check" type="checkbox" name="check">
+                            <label for="check">
+                              <p class="form-check-label">Lexus Lc 500 2017 - 2019 </p>
+                              <p class="form-check-label">LC 500 Luxury 5.0 (477 л.с.) 2WD 10AT</p>
+                            </label>
+                          </div>
+                          <div class="color-auto">
+                            <ul class="color-selection">
+                              <li class="color-item red"></li>
+                              <li class="color-item orange"></li>
+                              <li class="color-item blue"></li>
+                              <li class="color-item green"></li>
+                              <li class="color-item red"></li>
+                              <li class="color-item blue"></li>
+                              <li class="color-item red"></li>
+                              <li class="color-item orange"></li>
+                              <li class="color-item blue"></li>
+                              <li class="color-item green"></li>
+                              <li class="color-item red"></li>
+                              <li class="color-item blue"></li>
+                            </ul>
+                            <div class="color-edit"><a class="edit-link brand-color" href="#">редактировать</a></div>
+                          </div>
+                        </div>
+                        <div class="form-check-wrap">
+                          <div class="form-check">
+                            <input id="check2" type="checkbox" name="check">
+                            <label for="check2">
+                              <p class="form-check-label">Lexus Lc 500 2017 - 2019 </p>
+                              <p class="form-check-label">LC 500 Luxury 5.0 (477 л.с.) 2WD 10AT</p>
+                            </label>
+                          </div>
+                          <div class="color-auto">
+                            <ul class="color-selection">
+                              <li class="color-item red"></li>
+                              <li class="color-item orange"></li>
+                              <li class="color-item blue"></li>
+                              <li class="color-item green"></li>
+                              <li class="color-item red"></li>
+                              <li class="color-item blue"></li>
+                              <li class="color-item red"></li>
+                            </ul>
+                            <div class="color-edit"><a class="edit-link brand-color" href="#">редактировать</a></div>
+                          </div>
+                        </div>
+                        <div class="form-check-wrap">
+                          <div class="form-check">
+                            <input id="check3" type="checkbox" name="check">
+                            <label for="check3">
+                              <p class="form-check-label">Lexus Lc 500 2017 - 2019 </p>
+                              <p class="form-check-label">LC 500 Luxury 5.0 (477 л.с.) 2WD 10AT</p>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="form-check-wrap">
+                          <div class="form-check">
+                            <input id="check4" type="checkbox" name="check">
+                            <label for="check4">
+                              <p class="form-check-label">Lexus Lc 500 2017 - 2019 </p>
+                              <p class="form-check-label">LC 500 Luxury 5.0 (477 л.с.) 2WD 10AT</p>
+                            </label>
+                          </div>
+                          <div class="color-auto">
+                            <ul class="color-selection">
+                              <li class="color-item red"></li>
+                              <li class="color-item orange"></li>
+                              <li class="color-item blue"></li>
+                            </ul>
+                            <div class="color-edit"><a class="edit-link brand-color" href="#">редактировать</a></div>
+                          </div>
+                        </div>
+                        <div class="form-check-wrap">
+                          <div class="form-check">
+                            <input id="check5" type="checkbox" name="check">
+                            <label for="check5">
+                              <p class="form-check-label">Lexus Lc 500 2017 - 2019 </p>
+                              <p class="form-check-label">LC 500 Luxury 5.0 (477 л.с.) 2WD 10AT</p>
+                            </label>
+                          </div>
+                          <div class="color-auto">
+                            <ul class="color-selection">
+                              <li class="color-item red"></li>
+                              <li class="color-item orange"></li>
+                              <li class="color-item blue"></li>
+                            </ul>
+                            <div class="color-edit"><a class="edit-link brand-color" href="#">редактировать</a></div>
+                          </div>
+                        </div>
+                        <div class="form-check-wrap">
+                          <div class="form-check">
+                            <input id="check6" type="checkbox" name="check">
+                            <label for="check6">
+                              <p class="form-check-label">Lexus Lc 500 2017 - 2019 </p>
+                              <p class="form-check-label">LC 500 Luxury 5.0 (477 л.с.) 2WD 10AT</p>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="form-check-wrap">
+                          <div class="form-check">
+                            <input id="check7" type="checkbox" name="check">
+                            <label for="check7">
+                              <p class="form-check-label">Lexus Lc 500 2017 - 2019 </p>
+                              <p class="form-check-label">LC 500 Luxury 5.0 (477 л.с.) 2WD 10AT</p>
+                            </label>
+                          </div>
+                          <div class="color-auto">
+                            <ul class="color-selection">
+                              <li class="color-item red"></li>
+                              <li class="color-item orange"></li>
+                              <li class="color-item blue"></li>
+                              <li class="color-item green"></li>
+                              <li class="color-item red"></li>
+                              <li class="color-item blue"></li>
+                            </ul>
+                            <div class="color-edit"><a class="edit-link brand-color" href="#">редактировать</a></div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="accordion2">
+              <div class="card">
+                <div class="card-header d-flex" id="headingOne">
+                  <div class="name-auto">
+                    <p class="bold auto-title">Audi Q8</p>
+                    <p class="little-date">2018г. - 2018г.</p>
+                  </div>
+                  <div class="equipment-auto"><span>комплектация</span></div>
+                  <div class="color-auto"> <span>цвет</span></div>
+                  <div class="accordion-btn">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne">
+                      <i class="fas fa-chevron-down"></i>
+                      <i class="fas fa-chevron-up"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="collapse show" id="collapseOne2" aria-labelledby="headingOne" data-parent="#accordion2">
+                  <div class="card-body d-flex">
+                    <div class="name-auto"><img src="img/offer/car-2.png" alt="car">
+                      <div class="btn-site"><span>Специальные предложения от ВАШЕГО салона</span><i class="far fa-question-circle"></i></div><a href="#"> 
+                        <p class="name-auto-report">сообщить об ошибке в комплектации</p></a>
+                    </div>
+                    <div class="equipment-auto">
+                      <form>
+                        <div class="form-check-wrap">
+                          <div class="form-check">
+                            <input id="check8" type="checkbox" name="check">
+                            <label for="check8">
+                              <p class="form-check-label">Audi Q8 2018 - 2018</p>
+                              <p class="form-check-label">Q8 2018 - 2018 S line 50 TDI quattro (286 л.с.) Tiptronic 8</p>
+                            </label>
+                          </div>
+                          <div class="color-auto">
+                            <ul class="color-selection">
+                              <li class="color-item red"></li>
+                              <li class="color-item orange"></li>
+                              <li class="color-item blue"></li>
+                              <li class="color-item green"></li>
+                              <li class="color-item red"></li>
+                              <li class="color-item blue"></li>
+                              <li class="color-item red"></li>
+                              <li class="color-item orange"></li>
+                              <li class="color-item blue"></li>
+                              <li class="color-item green"></li>
+                              <li class="color-item red"></li>
+                              <li class="color-item blue"></li>
+                            </ul>
+                            <div class="color-edit"><a class="edit-link brand-color" href="#">редактировать</a></div>
+                          </div>
+                        </div>
+                        <div class="form-check-wrap">
+                          <div class="form-check">
+                            <input id="check9" type="checkbox" name="check">
+                            <label for="check9">
+                              <p class="form-check-label">Audi Q8 2018 - 2018</p>
+                              <p class="form-check-label">Q8 2018 - 2018 S line 50 TDI quattro (286 л.с.) Tiptronic 8</p>
+                            </label>
+                          </div>
+                          <div class="color-auto">
+                            <ul class="color-selection">
+                              <li class="color-item red"></li>
+                              <li class="color-item orange"></li>
+                              <li class="color-item blue"></li>
+                              <li class="color-item green"></li>
+                              <li class="color-item red"></li>
+                              <li class="color-item blue"></li>
+                              <li class="color-item red"></li>
+                            </ul>
+                            <div class="color-edit"><a class="edit-link brand-color" href="#">редактировать</a></div>
+                          </div>
+                        </div>
+                        <div class="form-check-wrap">
+                          <div class="form-check">
+                            <input id="check10" type="checkbox" name="check">
+                            <label for="check10">
+                              <p class="form-check-label">Audi Q8 2018 - 2018</p>
+                              <p class="form-check-label">Q8 2018 - 2018 S line 50 TDI quattro (286 л.с.) Tiptronic 8</p>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="form-check-wrap">
+                          <div class="form-check">
+                            <input id="check11" type="checkbox" name="check">
+                            <label for="check11">
+                              <p class="form-check-label">Audi Q8 2018 - 2018</p>
+                              <p class="form-check-label">Q8 2018 - 2018 S line 50 TDI quattro (286 л.с.) Tiptronic 8</p>
+                            </label>
+                          </div>
+                          <div class="color-auto">
+                            <ul class="color-selection">
+                              <li class="color-item red"></li>
+                              <li class="color-item orange"></li>
+                              <li class="color-item blue"></li>
+                            </ul>
+                            <div class="color-edit"><a class="edit-link brand-color" href="#">редактировать</a></div>
+                          </div>
+                        </div>
+                        <div class="form-check-wrap">
+                          <div class="form-check">
+                            <input id="check12" type="checkbox" name="check">
+                            <label for="check12">
+                              <p class="form-check-label">Audi Q8 2018 - 2018</p>
+                              <p class="form-check-label">Q8 2018 - 2018 S line 50 TDI quattro (286 л.с.) Tiptronic 8</p>
+                            </label>
+                          </div>
+                          <div class="color-auto">
+                            <ul class="color-selection">
+                              <li class="color-item red"></li>
+                              <li class="color-item orange"></li>
+                              <li class="color-item blue"></li>
+                            </ul>
+                            <div class="color-edit"><a class="edit-link brand-color" href="#">редактировать</a></div>
+                          </div>
+                        </div>
+                        <div class="form-check-wrap">
+                          <div class="form-check">
+                            <input id="check13" type="checkbox" name="check">
+                            <label for="check13">
+                              <p class="form-check-label">Audi Q8 2018 - 2018</p>
+                              <p class="form-check-label">Q8 2018 - 2018 S line 50 TDI quattro (286 л.с.) Tiptronic 8</p>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="form-check-wrap">
+                          <div class="form-check">
+                            <input id="check14" type="checkbox" name="check">
+                            <label for="check14">
+                              <p class="form-check-label">Audi Q8 2018 - 2018</p>
+                              <p class="form-check-label">Q8 2018 - 2018 S line 50 TDI quattro (286 л.с.) Tiptronic 8</p>
+                            </label>
+                          </div>
+                          <div class="color-auto">
+                            <ul class="color-selection">
+                              <li class="color-item red"></li>
+                              <li class="color-item orange"></li>
+                              <li class="color-item blue"></li>
+                              <li class="color-item green"></li>
+                              <li class="color-item red"></li>
+                              <li class="color-item blue"></li>
+                            </ul>
+                            <div class="color-edit"><a class="edit-link brand-color" href="#">редактировать</a></div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-top brand-bg-color">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="footer-top-schedule">
+                <p class="clock-title brand-color bold">Часы работы</p>
+                <p class="clock-numbers">c 09:00 до 22:00</p>
+                <p class="clock-seven-days">Без выходных</p>
+              </div>
+            </div>
+            <div class="col-lg-9">
+              <ul class="to-report-list">
+                <li class="bold to-report-item"><a class="to-report-item-link" href="#">Сообщить об отсуствующей модели (комплектации)</a></li>
+                <li class="bold to-report-item"><a class="to-report-item-link" href="#">Сообщить об ошибке</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-main">
+        <div class="container">
+          <div class="row">
+            <div class="offset-lg-3"></div>
+            <div class="col-lg-9">
+              <ul class="contacts">
+                <li class="contacts-item clock-title brand-color bold">свяжитесь с нами</li>
+                <li class="contacts-item header-top-tel"><a href="tel:+(067) 999 99 99"><img src="img/header/phone.png" alt="phone"><span>(067) 999 99 99</span></a></li>
+                <li class="contacts-item"> <a href="mailto:name@email.com"><span>email@test-email.com.ua</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="footer-logo"><img src="img/footer/logo-car-footer.png" alt="phone"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
